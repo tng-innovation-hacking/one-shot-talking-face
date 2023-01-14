@@ -1,0 +1,10 @@
+Input:/content/one-shot-talking-face/samples/imgs/tangni.jpg
+Input full path:/content/one-shot-talking-face/samples/imgs/tangni.jpg
+Camera parameters:233.333,233.333,128,128
+Output csv:tangni.csv
+Gaze: 0
+AUs: 0
+Landmarks 2D: 0
+Landmarks 3D: 0
+Pose: 1
+Shape parameters: 0

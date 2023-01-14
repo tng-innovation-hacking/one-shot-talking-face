@@ -1,0 +1,2 @@
+frame,face_id,timestamp,confidence,success,pose_Tx,pose_Ty,pose_Tz,pose_Rx,pose_Ry,pose_Rz
+1,0,0.000,0.98,1,-1.2,26.8,246.8,0.017,0.025,0.026
