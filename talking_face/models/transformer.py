@@ -1,9 +1,9 @@
 import torch.nn as nn
 import torch
-from models.util import mydownres2Dblock
+from talking_face.talking_face.models.util import mydownres2Dblock
 import numpy as np
-from models.util import AntiAliasInterpolation2d,make_coordinate_grid
-from sync_batchnorm import SynchronizedBatchNorm2d as BatchNorm2d
+from talking_face.talking_face.models.util import AntiAliasInterpolation2d,make_coordinate_grid
+from talking_face.talking_face.sync_batchnorm import SynchronizedBatchNorm2d as BatchNorm2d
 import torch.nn.functional as F
 import copy
 

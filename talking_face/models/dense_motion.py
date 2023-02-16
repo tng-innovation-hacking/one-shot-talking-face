@@ -1,7 +1,7 @@
 from torch import nn
 import torch.nn.functional as F
 import torch
-from models.util import Hourglass, AntiAliasInterpolation2d, make_coordinate_grid, kp2gaussian
+from talking_face.talking_face.models.util import Hourglass, AntiAliasInterpolation2d, make_coordinate_grid, kp2gaussian
 
 
 class DenseMotionNetwork(nn.Module):

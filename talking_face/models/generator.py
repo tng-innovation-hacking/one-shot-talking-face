@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from models.util import ResBlock2d, SameBlock2d, UpBlock2d, DownBlock2d
-from models.dense_motion import DenseMotionNetwork
+from talking_face.talking_face.models.util import ResBlock2d, SameBlock2d, UpBlock2d, DownBlock2d
+from talking_face.talking_face.models.dense_motion import DenseMotionNetwork
 
 
 class OcclusionAwareGenerator(nn.Module):

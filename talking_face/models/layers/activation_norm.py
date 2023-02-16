@@ -12,7 +12,7 @@ from torch import nn
 from torch.nn import functional as F
 from .conv import LinearBlock, Conv2dBlock, HyperConv2d, PartialConv2dBlock
 from .misc import PartialSequential
-import sync_batchnorm
+from talking_face.talking_face import sync_batchnorm
 
 
 class AdaptiveNorm(nn.Module):

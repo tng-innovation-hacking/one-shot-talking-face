@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch
-from models.util import MyResNet34
+from talking_face.talking_face.models.util import MyResNet34
 
 class audio2poseLSTM(nn.Module):
     def __init__(self):

@@ -5,10 +5,10 @@ import torch
 import cv2
 import numpy as np
 
-from models.resnet import resnet34
-from models.layers.residual import Res2dBlock,Res1dBlock,DownRes2dBlock
+from talking_face.talking_face.models.resnet import resnet34
+from talking_face.talking_face.models.layers.residual import Res2dBlock,Res1dBlock,DownRes2dBlock
 
-from sync_batchnorm import SynchronizedBatchNorm2d as BatchNorm2d
+from ..sync_batchnorm import SynchronizedBatchNorm2d as BatchNorm2d
 
 
 def myres2Dblock(indim,outdim,k_size = 3,padding = 1, normalize = "batch",nonlinearity = "relu",order = "NACNAC"):

@@ -1,7 +1,7 @@
 from torch import nn
 import torch
 import torch.nn.functional as F
-from models.util import Hourglass, make_coordinate_grid, AntiAliasInterpolation2d
+from talking_face.talking_face.models.util import Hourglass, make_coordinate_grid, AntiAliasInterpolation2d
 
 
 
